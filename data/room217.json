@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "id": 217,
+  "grid": {
+    "column": 9,
+    "row": 13
+  },
+  "attribute": {
+    "ink": 6,
+    "paper": 0,
+    "bright": true
+  },
+  "cube": {
+    "x": 16,
+    "y": 16,
+    "z": 12
+  },
+  "bounds": {
+    "x": 128,
+    "y": 128,
+    "z": 48
+  },
+  "exits": {
+    "north": 233,
+    "east": false,
+    "south": false,
+    "west": 216
+  },
+  "objects": [
+    {
+      "type": "tree_arch_n",
+      "typeIndex": 4,
+      "source": "background",
+      "sprite": 4,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 74,
+      "y": 127,
+      "z": 0,
+      "sx": 6,
+      "sy": 10,
+      "sz": 40,
+      "flags": {
+        "flipHorizontal": true
+      },
+      "extras": [
+        {
+          "sprite": 5,
+          "collision": "solid",
+          "x": 48,
+          "y": 127,
+          "z": 0,
+          "sx": 6,
+          "sy": 10,
+          "sz": 40,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "tree_arch_w",
+      "typeIndex": 7,
+      "source": "background",
+      "sprite": 4,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": -10,
+      "y": 48,
+      "z": 0,
+      "sx": 10,
+      "sy": 6,
+      "sz": 40,
+      "extras": [
+        {
+          "sprite": 5,
+          "collision": "solid",
+          "x": -10,
+          "y": 74,
+          "z": 0,
+          "sx": 10,
+          "sy": 6,
+          "sz": 40
+        }
+      ]
+    },
+    {
+      "type": "tree_room_size_1",
+      "typeIndex": 15,
+      "source": "background",
+      "sprite": 128,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": -1,
+      "y": 1,
+      "z": 0,
+      "sx": 0,
+      "sy": 16,
+      "sz": 44,
+      "extras": [
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": -1,
+          "y": 16,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": -1,
+          "y": 32,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 128,
+          "collision": "solid",
+          "x": -1,
+          "y": 80,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": -1,
+          "y": 96,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": -1,
+          "y": 112,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 128,
+          "collision": "solid",
+          "x": 0,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": 16,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": 32,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 128,
+          "collision": "solid",
+          "x": 80,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": 96,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": 112,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    }
+  ],
+  "items": [],
+  "origin": {
+    "source": "Knight Lore (Ultimate Play The Game, 1984), decoded from the disassembly",
+    "sizeIndex": 0,
+    "backgroundTypes": [
+      "tree_arch_n",
+      "tree_arch_w",
+      "tree_room_size_1"
+    ]
+  }
+}

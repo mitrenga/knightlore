@@ -1,0 +1,487 @@
+{
+  "format": 1,
+  "id": 111,
+  "grid": {
+    "column": 15,
+    "row": 6
+  },
+  "attribute": {
+    "ink": 6,
+    "paper": 0,
+    "bright": true
+  },
+  "cube": {
+    "x": 16,
+    "y": 16,
+    "z": 12
+  },
+  "bounds": {
+    "x": 128,
+    "y": 128,
+    "z": 72
+  },
+  "exits": {
+    "north": false,
+    "east": false,
+    "south": 95,
+    "west": 110
+  },
+  "objects": [
+    {
+      "type": "tree_arch_s",
+      "typeIndex": 6,
+      "source": "background",
+      "sprite": 4,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 74,
+      "y": -10,
+      "z": 0,
+      "sx": 6,
+      "sy": 10,
+      "sz": 40,
+      "flags": {
+        "flipHorizontal": true
+      },
+      "extras": [
+        {
+          "sprite": 5,
+          "collision": "solid",
+          "x": 48,
+          "y": -10,
+          "z": 0,
+          "sx": 6,
+          "sy": 10,
+          "sz": 40,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "tree_arch_w",
+      "typeIndex": 7,
+      "source": "background",
+      "sprite": 4,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": -10,
+      "y": 48,
+      "z": 0,
+      "sx": 10,
+      "sy": 6,
+      "sz": 40,
+      "extras": [
+        {
+          "sprite": 5,
+          "collision": "solid",
+          "x": -10,
+          "y": 74,
+          "z": 0,
+          "sx": 10,
+          "sy": 6,
+          "sz": 40
+        }
+      ]
+    },
+    {
+      "type": "tree_room_size_1",
+      "typeIndex": 15,
+      "source": "background",
+      "sprite": 128,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": -1,
+      "y": 1,
+      "z": 0,
+      "sx": 0,
+      "sy": 16,
+      "sz": 44,
+      "extras": [
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": -1,
+          "y": 16,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": -1,
+          "y": 32,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 128,
+          "collision": "solid",
+          "x": -1,
+          "y": 80,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": -1,
+          "y": 96,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": -1,
+          "y": 112,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 128,
+          "collision": "solid",
+          "x": 0,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": 16,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": 32,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 128,
+          "collision": "solid",
+          "x": 80,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": 96,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 130,
+          "collision": "solid",
+          "x": 112,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "tree_filler_n",
+      "typeIndex": 17,
+      "source": "background",
+      "sprite": 128,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 48,
+      "y": 128,
+      "z": 0,
+      "sx": 16,
+      "sy": 0,
+      "sz": 44,
+      "flags": {
+        "flipHorizontal": true
+      },
+      "extras": [
+        {
+          "sprite": 129,
+          "collision": "solid",
+          "x": 64,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "rock",
+      "typeIndex": 3,
+      "source": "block",
+      "sprite": 6,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 80,
+      "y": 80,
+      "z": 0,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 5,
+        "y": 5,
+        "z": 0
+      }
+    },
+    {
+      "type": "rock",
+      "typeIndex": 3,
+      "source": "block",
+      "sprite": 6,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 96,
+      "y": 80,
+      "z": 0,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 6,
+        "y": 5,
+        "z": 0
+      }
+    },
+    {
+      "type": "rock",
+      "typeIndex": 3,
+      "source": "block",
+      "sprite": 6,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 112,
+      "y": 80,
+      "z": 0,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 7,
+        "y": 5,
+        "z": 0
+      }
+    },
+    {
+      "type": "gargoyle",
+      "typeIndex": 4,
+      "source": "block",
+      "sprite": 22,
+      "collision": "hazard",
+      "motion": "static",
+      "phase": "always",
+      "x": 82,
+      "y": 82,
+      "z": 12,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "cell": {
+        "x": 5,
+        "y": 5,
+        "z": 1
+      }
+    },
+    {
+      "type": "gargoyle",
+      "typeIndex": 4,
+      "source": "block",
+      "sprite": 22,
+      "collision": "hazard",
+      "motion": "static",
+      "phase": "always",
+      "x": 98,
+      "y": 82,
+      "z": 12,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "cell": {
+        "x": 6,
+        "y": 5,
+        "z": 1
+      }
+    },
+    {
+      "type": "gargoyle",
+      "typeIndex": 4,
+      "source": "block",
+      "sprite": 22,
+      "collision": "hazard",
+      "motion": "static",
+      "phase": "always",
+      "x": 114,
+      "y": 82,
+      "z": 12,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "cell": {
+        "x": 7,
+        "y": 5,
+        "z": 1
+      }
+    },
+    {
+      "type": "spike_ball_high_fall",
+      "typeIndex": 19,
+      "source": "block",
+      "sprite": 63,
+      "collision": "hazard",
+      "motion": "fall",
+      "phase": "always",
+      "x": 82,
+      "y": 114,
+      "z": 48,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "cell": {
+        "x": 5,
+        "y": 7,
+        "z": 0
+      }
+    },
+    {
+      "type": "spike_ball_high_fall",
+      "typeIndex": 19,
+      "source": "block",
+      "sprite": 63,
+      "collision": "hazard",
+      "motion": "fall",
+      "phase": "always",
+      "x": 82,
+      "y": 98,
+      "z": 48,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "cell": {
+        "x": 5,
+        "y": 6,
+        "z": 0
+      }
+    },
+    {
+      "type": "spike_ball_high_fall",
+      "typeIndex": 19,
+      "source": "block",
+      "sprite": 63,
+      "collision": "hazard",
+      "motion": "fall",
+      "phase": "always",
+      "x": 82,
+      "y": 114,
+      "z": 60,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "cell": {
+        "x": 5,
+        "y": 7,
+        "z": 1
+      }
+    },
+    {
+      "type": "spike_ball_high_fall",
+      "typeIndex": 19,
+      "source": "block",
+      "sprite": 63,
+      "collision": "hazard",
+      "motion": "fall",
+      "phase": "always",
+      "x": 82,
+      "y": 98,
+      "z": 60,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "cell": {
+        "x": 5,
+        "y": 6,
+        "z": 1
+      }
+    }
+  ],
+  "items": [
+    {
+      "index": 20,
+      "x": 115,
+      "y": 115,
+      "z": 0
+    }
+  ],
+  "origin": {
+    "source": "Knight Lore (Ultimate Play The Game, 1984), decoded from the disassembly",
+    "sizeIndex": 0,
+    "backgroundTypes": [
+      "tree_arch_s",
+      "tree_arch_w",
+      "tree_room_size_1",
+      "tree_filler_n"
+    ]
+  }
+}

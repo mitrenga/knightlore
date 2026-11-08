@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "items": [
+    {
+      "index": 0,
+      "x": 67,
+      "y": 59,
+      "z": 36,
+      "room": 109
+    },
+    {
+      "index": 1,
+      "x": 59,
+      "y": 59,
+      "z": 12,
+      "room": 39
+    },
+    {
+      "index": 2,
+      "x": 67,
+      "y": 51,
+      "z": 48,
+      "room": 208
+    },
+    {
+      "index": 3,
+      "x": 51,
+      "y": 67,
+      "z": 0,
+      "room": 10
+    },
+    {
+      "index": 4,
+      "x": 51,
+      "y": 67,
+      "z": 0,
+      "room": 186
+    },
+    {
+      "index": 5,
+      "x": 67,
+      "y": 51,
+      "z": 48,
+      "room": 66
+    },
+    {
+      "index": 6,
+      "x": 67,
+      "y": 115,
+      "z": 60,
+      "room": 141
+    },
+    {
+      "index": 7,
+      "x": 99,
+      "y": 99,
+      "z": 0,
+      "room": 255
+    },
+    {
+      "index": 8,
+      "x": 59,
+      "y": 59,
+      "z": 0,
+      "room": 135
+    },
+    {
+      "index": 9,
+      "x": 51,
+      "y": 115,
+      "z": 0,
+      "room": 243
+    },
+    {
+      "index": 10,
+      "x": 99,
+      "y": 35,
+      "z": 48,
+      "room": 168
+    },
+    {
+      "index": 11,
+      "x": 115,
+      "y": 3,
+      "z": 48,
+      "room": 210
+    },
+    {
+      "index": 12,
+      "x": 3,
+      "y": 3,
+      "z": 0,
+      "room": 0
+    },
+    {
+      "index": 13,
+      "x": 67,
+      "y": 115,
+      "z": 0,
+      "room": 34
+    },
+    {
+      "index": 14,
+      "x": 115,
+      "y": 115,
+      "z": 48,
+      "room": 122
+    },
+    {
+      "index": 15,
+      "x": 115,
+      "y": 115,
+      "z": 0,
+      "room": 249
+    },
+    {
+      "index": 16,
+      "x": 67,
+      "y": 83,
+      "z": 48,
+      "room": 214
+    },
+    {
+      "index": 17,
+      "x": 51,
+      "y": 67,
+      "z": 48,
+      "room": 232
+    },
+    {
+      "index": 18,
+      "x": 51,
+      "y": 51,
+      "z": 48,
+      "room": 246
+    },
+    {
+      "index": 19,
+      "x": 67,
+      "y": 51,
+      "z": 12,
+      "room": 15
+    },
+    {
+      "index": 20,
+      "x": 115,
+      "y": 115,
+      "z": 0,
+      "room": 111
+    },
+    {
+      "index": 21,
+      "x": 3,
+      "y": 115,
+      "z": 36,
+      "room": 253
+    },
+    {
+      "index": 22,
+      "x": 51,
+      "y": 51,
+      "z": 48,
+      "room": 8
+    },
+    {
+      "index": 23,
+      "x": 67,
+      "y": 67,
+      "z": 36,
+      "room": 187
+    },
+    {
+      "index": 24,
+      "x": 51,
+      "y": 51,
+      "z": 48,
+      "room": 223
+    },
+    {
+      "index": 25,
+      "x": 59,
+      "y": 59,
+      "z": 0,
+      "room": 94
+    },
+    {
+      "index": 26,
+      "x": 51,
+      "y": 67,
+      "z": 48,
+      "room": 180
+    },
+    {
+      "index": 27,
+      "x": 51,
+      "y": 51,
+      "z": 48,
+      "room": 4
+    },
+    {
+      "index": 28,
+      "x": 3,
+      "y": 115,
+      "z": 0,
+      "room": 116
+    },
+    {
+      "index": 29,
+      "x": 59,
+      "y": 59,
+      "z": 0,
+      "room": 64
+    },
+    {
+      "index": 30,
+      "x": 3,
+      "y": 51,
+      "z": 48,
+      "room": 56
+    },
+    {
+      "index": 31,
+      "x": 3,
+      "y": 115,
+      "z": 24,
+      "room": 240
+    }
+  ],
+  "required": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    3,
+    5,
+    0,
+    6,
+    1,
+    2,
+    4
+  ],
+  "startRooms": [
+    47,
+    68,
+    179,
+    143
+  ],
+  "origin": {
+    "source": "Knight Lore (Ultimate Play The Game, 1984), decoded from the disassembly",
+    "items": "special_objs_tbl, 32 records of 9 bytes",
+    "required": "objects_required, rotated by 4-7 places at the start of a game",
+    "startRooms": "start_locations, one picked at random"
+  }
+}

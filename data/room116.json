@@ -1,0 +1,572 @@
+{
+  "format": 1,
+  "id": 116,
+  "grid": {
+    "column": 4,
+    "row": 7
+  },
+  "attribute": {
+    "ink": 4,
+    "paper": 0,
+    "bright": true
+  },
+  "cube": {
+    "x": 16,
+    "y": 16,
+    "z": 12
+  },
+  "bounds": {
+    "x": 128,
+    "y": 128,
+    "z": 48
+  },
+  "exits": {
+    "north": false,
+    "east": 117,
+    "south": 100,
+    "west": false
+  },
+  "objects": [
+    {
+      "type": "arch_e",
+      "typeIndex": 1,
+      "source": "background",
+      "sprite": 2,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 127,
+      "y": 48,
+      "z": 0,
+      "sx": 10,
+      "sy": 6,
+      "sz": 40,
+      "extras": [
+        {
+          "sprite": 3,
+          "collision": "solid",
+          "x": 127,
+          "y": 74,
+          "z": 0,
+          "sx": 10,
+          "sy": 6,
+          "sz": 40
+        }
+      ]
+    },
+    {
+      "type": "arch_s",
+      "typeIndex": 2,
+      "source": "background",
+      "sprite": 2,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 74,
+      "y": -10,
+      "z": 0,
+      "sx": 6,
+      "sy": 10,
+      "sz": 40,
+      "flags": {
+        "flipHorizontal": true
+      },
+      "extras": [
+        {
+          "sprite": 3,
+          "collision": "solid",
+          "x": 48,
+          "y": -10,
+          "z": 0,
+          "sx": 6,
+          "sy": 10,
+          "sz": 40,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "wall_size_1",
+      "typeIndex": 12,
+      "source": "background",
+      "sprite": 13,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": -1,
+      "y": 112,
+      "z": 0,
+      "sx": 0,
+      "sy": 16,
+      "sz": 40,
+      "extras": [
+        {
+          "sprite": 14,
+          "collision": "solid",
+          "x": -1,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 40
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": -1,
+          "y": 1,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": 112,
+          "y": 128,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": -1,
+          "y": 1,
+          "z": 44,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": 112,
+          "y": 128,
+          "z": 44,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 10,
+          "collision": "solid",
+          "x": 8,
+          "y": 128,
+          "z": 0,
+          "sx": 40,
+          "sy": 0,
+          "sz": 20,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 11,
+          "collision": "solid",
+          "x": -1,
+          "y": 16,
+          "z": 24,
+          "sx": 0,
+          "sy": 24,
+          "sz": 20
+        },
+        {
+          "sprite": 12,
+          "collision": "solid",
+          "x": -1,
+          "y": 84,
+          "z": 24,
+          "sx": 0,
+          "sy": 24,
+          "sz": 12
+        },
+        {
+          "sprite": 11,
+          "collision": "solid",
+          "x": 88,
+          "y": 128,
+          "z": 24,
+          "sx": 24,
+          "sy": 0,
+          "sz": 20,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 10,
+          "collision": "solid",
+          "x": -1,
+          "y": 25,
+          "z": 49,
+          "sx": 0,
+          "sy": 40,
+          "sz": 20
+        },
+        {
+          "sprite": 12,
+          "collision": "solid",
+          "x": 20,
+          "y": 128,
+          "z": 32,
+          "sx": 24,
+          "sy": 0,
+          "sz": 12,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 10,
+          "collision": "solid",
+          "x": 60,
+          "y": 128,
+          "z": 48,
+          "sx": 40,
+          "sy": 0,
+          "sz": 20,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "spike",
+      "typeIndex": 5,
+      "source": "block",
+      "sprite": 23,
+      "collision": "hazard",
+      "motion": "static",
+      "phase": "always",
+      "x": 18,
+      "y": 114,
+      "z": 0,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "flags": {
+        "flipHorizontal": true
+      },
+      "cell": {
+        "x": 1,
+        "y": 7,
+        "z": 0
+      }
+    },
+    {
+      "type": "spike",
+      "typeIndex": 5,
+      "source": "block",
+      "sprite": 23,
+      "collision": "hazard",
+      "motion": "static",
+      "phase": "always",
+      "x": 2,
+      "y": 98,
+      "z": 0,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "flags": {
+        "flipHorizontal": true
+      },
+      "cell": {
+        "x": 0,
+        "y": 6,
+        "z": 0
+      }
+    },
+    {
+      "type": "spike",
+      "typeIndex": 5,
+      "source": "block",
+      "sprite": 23,
+      "collision": "hazard",
+      "motion": "static",
+      "phase": "always",
+      "x": 18,
+      "y": 98,
+      "z": 0,
+      "sx": 12,
+      "sy": 12,
+      "sz": 12,
+      "flags": {
+        "flipHorizontal": true
+      },
+      "cell": {
+        "x": 1,
+        "y": 6,
+        "z": 0
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 32,
+      "y": 112,
+      "z": 0,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 2,
+        "y": 7,
+        "z": 0
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 32,
+      "y": 112,
+      "z": 12,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 2,
+        "y": 7,
+        "z": 1
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 32,
+      "y": 96,
+      "z": 0,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 2,
+        "y": 6,
+        "z": 0
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 32,
+      "y": 96,
+      "z": 12,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 2,
+        "y": 6,
+        "z": 1
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 0,
+      "y": 80,
+      "z": 0,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 0,
+        "y": 5,
+        "z": 0
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 0,
+      "y": 80,
+      "z": 12,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 0,
+        "y": 5,
+        "z": 1
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 16,
+      "y": 80,
+      "z": 0,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 1,
+        "y": 5,
+        "z": 0
+      }
+    },
+    {
+      "type": "block",
+      "typeIndex": 0,
+      "source": "block",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 16,
+      "y": 80,
+      "z": 12,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 1,
+        "y": 5,
+        "z": 1
+      }
+    },
+    {
+      "type": "collapsing_block",
+      "typeIndex": 22,
+      "source": "block",
+      "sprite": 143,
+      "collision": "trigger",
+      "motion": "collapse",
+      "phase": "always",
+      "x": 0,
+      "y": 112,
+      "z": 24,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 0,
+        "y": 7,
+        "z": 2
+      }
+    },
+    {
+      "type": "collapsing_block",
+      "typeIndex": 22,
+      "source": "block",
+      "sprite": 143,
+      "collision": "trigger",
+      "motion": "collapse",
+      "phase": "always",
+      "x": 16,
+      "y": 112,
+      "z": 24,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 1,
+        "y": 7,
+        "z": 2
+      }
+    },
+    {
+      "type": "collapsing_block",
+      "typeIndex": 22,
+      "source": "block",
+      "sprite": 143,
+      "collision": "trigger",
+      "motion": "collapse",
+      "phase": "always",
+      "x": 0,
+      "y": 96,
+      "z": 24,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 0,
+        "y": 6,
+        "z": 2
+      }
+    },
+    {
+      "type": "collapsing_block",
+      "typeIndex": 22,
+      "source": "block",
+      "sprite": 143,
+      "collision": "trigger",
+      "motion": "collapse",
+      "phase": "always",
+      "x": 16,
+      "y": 96,
+      "z": 24,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "cell": {
+        "x": 1,
+        "y": 6,
+        "z": 2
+      }
+    }
+  ],
+  "items": [
+    {
+      "index": 28,
+      "x": 3,
+      "y": 115,
+      "z": 0
+    }
+  ],
+  "origin": {
+    "source": "Knight Lore (Ultimate Play The Game, 1984), decoded from the disassembly",
+    "sizeIndex": 0,
+    "backgroundTypes": [
+      "arch_e",
+      "arch_s",
+      "wall_size_1"
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "format": 1,
+  "id": 134,
+  "grid": {
+    "column": 6,
+    "row": 8
+  },
+  "attribute": {
+    "ink": 3,
+    "paper": 0,
+    "bright": true
+  },
+  "cube": {
+    "x": 16,
+    "y": 16,
+    "z": 12
+  },
+  "bounds": {
+    "x": 128,
+    "y": 64,
+    "z": 88
+  },
+  "exits": {
+    "north": false,
+    "east": 135,
+    "south": false,
+    "west": 133
+  },
+  "objects": [
+    {
+      "type": "high_arch_e",
+      "typeIndex": 20,
+      "source": "background",
+      "sprite": 2,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 127,
+      "y": 16,
+      "z": 48,
+      "sx": 10,
+      "sy": 6,
+      "sz": 40,
+      "extras": [
+        {
+          "sprite": 3,
+          "collision": "solid",
+          "x": 127,
+          "y": 42,
+          "z": 48,
+          "sx": 10,
+          "sy": 6,
+          "sz": 40
+        }
+      ]
+    },
+    {
+      "type": "arch_w",
+      "typeIndex": 3,
+      "source": "background",
+      "sprite": 2,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": -10,
+      "y": 16,
+      "z": 0,
+      "sx": 10,
+      "sy": 6,
+      "sz": 40,
+      "extras": [
+        {
+          "sprite": 3,
+          "collision": "solid",
+          "x": -10,
+          "y": 42,
+          "z": 0,
+          "sx": 10,
+          "sy": 6,
+          "sz": 40
+        }
+      ]
+    },
+    {
+      "type": "high_arch_e_base",
+      "typeIndex": 22,
+      "source": "background",
+      "sprite": 7,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": 128,
+      "y": 16,
+      "z": 36,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "extras": [
+        {
+          "sprite": 7,
+          "collision": "solid",
+          "x": 128,
+          "y": 32,
+          "z": 36,
+          "sx": 16,
+          "sy": 16,
+          "sz": 12
+        }
+      ]
+    },
+    {
+      "type": "wall_size_2",
+      "typeIndex": 13,
+      "source": "background",
+      "sprite": 13,
+      "collision": "solid",
+      "motion": "static",
+      "phase": "always",
+      "x": -1,
+      "y": 48,
+      "z": 0,
+      "sx": 0,
+      "sy": 16,
+      "sz": 40,
+      "extras": [
+        {
+          "sprite": 14,
+          "collision": "solid",
+          "x": -1,
+          "y": 64,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 40
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": -1,
+          "y": -5,
+          "z": 0,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": 112,
+          "y": 64,
+          "z": 0,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": -1,
+          "y": -5,
+          "z": 44,
+          "sx": 0,
+          "sy": 16,
+          "sz": 44
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": 112,
+          "y": 64,
+          "z": 44,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 13,
+          "collision": "solid",
+          "x": -1,
+          "y": 48,
+          "z": 40,
+          "sx": 0,
+          "sy": 16,
+          "sz": 40
+        },
+        {
+          "sprite": 14,
+          "collision": "solid",
+          "x": -1,
+          "y": 64,
+          "z": 40,
+          "sx": 16,
+          "sy": 0,
+          "sz": 40
+        },
+        {
+          "sprite": 15,
+          "collision": "solid",
+          "x": 112,
+          "y": 64,
+          "z": 80,
+          "sx": 16,
+          "sy": 0,
+          "sz": 44,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 10,
+          "collision": "solid",
+          "x": 44,
+          "y": 64,
+          "z": 0,
+          "sx": 40,
+          "sy": 0,
+          "sz": 20,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 10,
+          "collision": "solid",
+          "x": -1,
+          "y": 10,
+          "z": 48,
+          "sx": 0,
+          "sy": 40,
+          "sz": 20
+        },
+        {
+          "sprite": 11,
+          "collision": "solid",
+          "x": 20,
+          "y": 64,
+          "z": 16,
+          "sx": 24,
+          "sy": 0,
+          "sz": 20,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 10,
+          "collision": "solid",
+          "x": 12,
+          "y": 64,
+          "z": 56,
+          "sx": 40,
+          "sy": 0,
+          "sz": 20,
+          "flags": {
+            "flipHorizontal": true
+          }
+        },
+        {
+          "sprite": 12,
+          "collision": "solid",
+          "x": 84,
+          "y": 64,
+          "z": 48,
+          "sx": 24,
+          "sy": 0,
+          "sz": 12,
+          "flags": {
+            "flipHorizontal": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "moveable_block",
+      "typeIndex": 16,
+      "source": "block",
+      "sprite": 62,
+      "collision": "pushable",
+      "motion": "static",
+      "phase": "always",
+      "x": 48,
+      "y": 32,
+      "z": 12,
+      "sx": 16,
+      "sy": 16,
+      "sz": 12,
+      "flags": {
+        "moveable": true
+      },
+      "cell": {
+        "x": 3,
+        "y": 4,
+        "z": 1
+      }
+    },
+    {
+      "type": "ball_bounce",
+      "typeIndex": 23,
+      "source": "block",
+      "sprite": 182,
+      "collision": "hazard",
+      "motion": "bounce",
+      "phase": "always",
+      "x": 49,
+      "y": 33,
+      "z": 0,
+      "sx": 14,
+      "sy": 14,
+      "sz": 12,
+      "cell": {
+        "x": 3,
+        "y": 4,
+        "z": 0
+      }
+    }
+  ],
+  "items": [],
+  "origin": {
+    "source": "Knight Lore (Ultimate Play The Game, 1984), decoded from the disassembly",
+    "sizeIndex": 2,
+    "backgroundTypes": [
+      "high_arch_e",
+      "arch_w",
+      "high_arch_e_base",
+      "wall_size_2"
+    ]
+  }
+}
