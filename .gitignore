@@ -1,0 +1,18 @@
+# Cizí podklady — studijní materiál, do repa nepatří (viz refs/README.md)
+refs/*
+!refs/README.md
+
+# Vygenerovaný deploy (svtool build) a lokální konfigurace
+js
+config/config.php
+
+node_modules/
+*.log
+/room*.png
+test*
+tmp*
+.DS_Store
+CLAUDE.md
+.claude/
+MILNIKY.md
+ZADANI.md

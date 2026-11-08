@@ -1,0 +1,8 @@
+<?php
+
+  $devMode = true;
+  $devModeName = '.{\"penColor\":\"#000000\",\"bkColor\":\"#fefe00\",\"width\":185}◢◤ ◢◤ ◢◤ ◢◤  DEVELOPER MODE ◢◤ ◢◤ ◢◤ ◢◤';
+  $dbHostname = 'localhost';
+  $dbName = 'knightlore';
+  $dbUser = 'your-user-name';
+  $dbPassword = 'your-password';

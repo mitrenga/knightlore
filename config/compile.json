@@ -1,0 +1,10 @@
+{
+    "standalone": [
+        "physics.js",
+        "objectMotion.js",
+        "dayNight.js",
+        "heroController.js",
+        "objectTable.js",
+        "gameWorker.js"
+    ]
+}
